@@ -1,4 +1,4 @@
-# Ml.Net.Training
+# ML.Net.Training
 Written theory of ML algorithms and practical application in ML.Net
 
 Requirements - 
