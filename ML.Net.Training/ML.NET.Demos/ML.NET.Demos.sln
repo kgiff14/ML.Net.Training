@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryClassification", "ML.NET.Demos\BinaryClassification.csproj", "{7D39BFC3-97E3-431A-915D-B6823ACB95BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryClassification", "ML.NET.Demos\BinaryClassification.csproj", "{7D39BFC3-97E3-431A-915D-B6823ACB95BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiClassClassification", "MultiClassClassification\MultiClassClassification.csproj", "{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7D39BFC3-97E3-431A-915D-B6823ACB95BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D39BFC3-97E3-431A-915D-B6823ACB95BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D39BFC3-97E3-431A-915D-B6823ACB95BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
