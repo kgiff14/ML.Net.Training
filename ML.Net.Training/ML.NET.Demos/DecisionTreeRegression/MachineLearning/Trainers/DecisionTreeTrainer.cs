@@ -1,0 +1,18 @@
+﻿using DecisionTreeRegression.MachineLearning.Common;
+using Microsoft.ML.Calibrators;
+using Microsoft.ML.Trainers.FastTree;
+
+namespace DecisionTreeRegression.MachineLearning.Trainers
+{
+    public class DecisionTreeTrainer : TrainerBase<FastTreeRegressionModelParameters>
+    {
+        public DecisionTreeTrainer(int numberOfLeaves, int numberOfTrees, double learningRate = 0.2) : base()
+        {
+            Name = $"Decision Tree-{numberOfLeaves}-{numberOfTrees}-{learningRate}";
+            Model = MlContext
+                        .Regression
+                        .Trainers
+                        .FastTree(numberOfLeaves: numberOfLeaves, numberOfTrees: numberOfTrees, learningRate: learningRate);
+        }
+    }
+}
