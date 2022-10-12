@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryClassification", "ML.NET.Demos\BinaryClassification.csproj", "{7D39BFC3-97E3-431A-915D-B6823ACB95BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiClassClassification", "MultiClassClassification\MultiClassClassification.csproj", "{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiClassClassification", "MultiClassClassification\MultiClassClassification.csproj", "{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesicionTrees", "DesicionTrees\DesicionTrees.csproj", "{7A6D2758-37A4-48A1-B783-C6916023E4E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6D2758-37A4-48A1-B783-C6916023E4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6D2758-37A4-48A1-B783-C6916023E4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6D2758-37A4-48A1-B783-C6916023E4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6D2758-37A4-48A1-B783-C6916023E4E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

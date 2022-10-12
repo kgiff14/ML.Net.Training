@@ -1,4 +1,4 @@
-﻿namespace MultiClassClassification.MachineLearning.Common
+﻿namespace DesicionTrees.MachineLearning.Common
 {
     public interface ITrainerBase
     {
@@ -6,7 +6,7 @@
 
         void Fit(string fileName);
 
-        MulticlassClassificationMetrics Evalute();
+        BinaryClassificationMetrics Evalute();
 
         void Save();
     }

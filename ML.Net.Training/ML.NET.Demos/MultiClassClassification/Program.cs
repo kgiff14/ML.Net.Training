@@ -1,6 +1,4 @@
-﻿using System.IO;
-using MultiClassClassification.MachineLearning.Common;
-using MultiClassClassification.MachineLearning.DataModels;
+﻿using MultiClassClassification.MachineLearning.Common;
 using MultiClassClassification.MachineLearning.Predictors;
 using MultiClassClassification.MachineLearning.Trainers;
 
