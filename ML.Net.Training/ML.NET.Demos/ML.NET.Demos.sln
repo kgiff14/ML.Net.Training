@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomForestRegression", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportVectorMachineClassificiation", "SupportVectorMachine\SupportVectorMachineClassificiation.csproj", "{F04CEEC2-1B7D-4DBC-825F-746122F9F4F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clustering", "Clustering\Clustering.csproj", "{B87FEB51-C090-4970-A30F-696BD0E43CEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F04CEEC2-1B7D-4DBC-825F-746122F9F4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04CEEC2-1B7D-4DBC-825F-746122F9F4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04CEEC2-1B7D-4DBC-825F-746122F9F4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87FEB51-C090-4970-A30F-696BD0E43CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87FEB51-C090-4970-A30F-696BD0E43CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87FEB51-C090-4970-A30F-696BD0E43CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87FEB51-C090-4970-A30F-696BD0E43CEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
