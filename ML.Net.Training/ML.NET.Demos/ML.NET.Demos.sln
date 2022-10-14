@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecisionTreeRegression", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomForestClassification", "RandomForestClassification\RandomForestClassification.csproj", "{3A4C5752-8B19-4A6D-8319-B2B4F67FB83B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomForestRegression", "RandomForestRegression\RandomForestRegression.csproj", "{7074B569-CFF6-4F55-A773-DD1FB5C01FDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3A4C5752-8B19-4A6D-8319-B2B4F67FB83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A4C5752-8B19-4A6D-8319-B2B4F67FB83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A4C5752-8B19-4A6D-8319-B2B4F67FB83B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7074B569-CFF6-4F55-A773-DD1FB5C01FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7074B569-CFF6-4F55-A773-DD1FB5C01FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7074B569-CFF6-4F55-A773-DD1FB5C01FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7074B569-CFF6-4F55-A773-DD1FB5C01FDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
