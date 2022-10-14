@@ -1,6 +1,6 @@
 ﻿using Microsoft.ML.Trainers;
 using Microsoft.ML.Transforms;
-using MultiClassClassification.MachineLearning.Predictors;
+using MultiClassClassification.MachineLearning.DataModels;
 
 namespace MultiClassClassification.MachineLearning.Common
 {
