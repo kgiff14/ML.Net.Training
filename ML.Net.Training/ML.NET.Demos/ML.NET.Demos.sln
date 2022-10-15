@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryClassification", "ML.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiClassClassification", "MultiClassClassification\MultiClassClassification.csproj", "{DFFD0914-5C11-4B20-86C5-0A722CE25CEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesicionTrees", "DesicionTrees\DesicionTrees.csproj", "{7A6D2758-37A4-48A1-B783-C6916023E4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesicionTrees", "DesicionTrees\DesicionTrees.csproj", "{7A6D2758-37A4-48A1-B783-C6916023E4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecisionTreeRegression", "DecisionTreeRegression\DecisionTreeRegression.csproj", "{E9445F7A-B9AE-417F-8505-3421E12BE191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecisionTreeRegression", "DecisionTreeRegression\DecisionTreeRegression.csproj", "{E9445F7A-B9AE-417F-8505-3421E12BE191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomForestClassification", "RandomForestClassification\RandomForestClassification.csproj", "{3A4C5752-8B19-4A6D-8319-B2B4F67FB83B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomForestClassification", "RandomForestClassification\RandomForestClassification.csproj", "{3A4C5752-8B19-4A6D-8319-B2B4F67FB83B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomForestRegression", "RandomForestRegression\RandomForestRegression.csproj", "{7074B569-CFF6-4F55-A773-DD1FB5C01FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomForestRegression", "RandomForestRegression\RandomForestRegression.csproj", "{7074B569-CFF6-4F55-A773-DD1FB5C01FDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportVectorMachineClassificiation", "SupportVectorMachine\SupportVectorMachineClassificiation.csproj", "{F04CEEC2-1B7D-4DBC-825F-746122F9F4F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportVectorMachineClassificiation", "SupportVectorMachine\SupportVectorMachineClassificiation.csproj", "{F04CEEC2-1B7D-4DBC-825F-746122F9F4F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clustering", "Clustering\Clustering.csproj", "{B87FEB51-C090-4970-A30F-696BD0E43CEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clustering", "Clustering\Clustering.csproj", "{B87FEB51-C090-4970-A30F-696BD0E43CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBuilder", "ModelBuilder\ModelBuilder.csproj", "{F06FD898-B4DF-4B76-AE51-E6DF7C18F5EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{B87FEB51-C090-4970-A30F-696BD0E43CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B87FEB51-C090-4970-A30F-696BD0E43CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B87FEB51-C090-4970-A30F-696BD0E43CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06FD898-B4DF-4B76-AE51-E6DF7C18F5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06FD898-B4DF-4B76-AE51-E6DF7C18F5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06FD898-B4DF-4B76-AE51-E6DF7C18F5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06FD898-B4DF-4B76-AE51-E6DF7C18F5EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

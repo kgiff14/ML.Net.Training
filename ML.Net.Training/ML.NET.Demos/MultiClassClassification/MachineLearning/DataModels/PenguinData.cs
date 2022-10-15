@@ -1,4 +1,4 @@
-﻿namespace MultiClassClassification.MachineLearning.Predictors
+﻿namespace MultiClassClassification.MachineLearning.DataModels
 {
     public class PenguinData
     {
