@@ -37,6 +37,14 @@ namespace SentimentAnalysis
             };
 
             trainers.ForEach(x => TrainEvalutePredict(x, newSample));
+
+            var newData = new SentimentAnalysis.ModelInput
+            {
+                Col0 = result
+            };
+
+            var autoMlResult = SentimentAnalysis.Predict(newData);
+            Console.WriteLine(Convert.ToBoolean(autoMlResult.PredictedLabel));
         }
 
         static void TrainEvalutePredict(ITrainerBase trainer, SentimentData sample)
