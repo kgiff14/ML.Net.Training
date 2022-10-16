@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clustering", "Clustering\Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelBuilder", "ModelBuilder\ModelBuilder.csproj", "{F06FD898-B4DF-4B76-AE51-E6DF7C18F5EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationSystem", "RecommendationSystem\RecommendationSystem.csproj", "{B5880850-9186-4180-AC15-267AE9A82357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecommendationSystem", "RecommendationSystem\RecommendationSystem.csproj", "{B5880850-9186-4180-AC15-267AE9A82357}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

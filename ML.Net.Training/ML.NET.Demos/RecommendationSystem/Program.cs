@@ -2,6 +2,7 @@
 using RecommendationSystem.MachineLearning.DataModels;
 using RecommendationSystem.MachineLearning.Predictors;
 using RecommendationSystem.MachineLearning.Trainers;
+using Tensorflow;
 
 namespace RecommendationSystem
 {
@@ -26,6 +27,8 @@ namespace RecommendationSystem
             };
 
             trainers.ForEach(x => TrainEvalutePredict(x, newSample));
+
+            AutoMl();
         }
 
         static void TrainEvalutePredict(ITrainerBase trainer, MovieData sample)
@@ -50,6 +53,25 @@ namespace RecommendationSystem
             var predictor = new Predictor();
             var prediction = predictor.Predict(sample);
             Console.WriteLine($"\nPrediction: {prediction.Score}");
+        }
+
+        private static void AutoMl()
+        {
+            Console.WriteLine($"\n\n-------------------------------------------\n\tAutoML\n-------------------------------------------");
+
+            //Load sample data
+            var sampleData = new RecommendationSystem.ModelInput()
+            {
+                Column1 = 1F,
+                Movie = 1F,
+                User = 822109F,
+                Date = @"2005-05-13",
+            };
+
+            //Load model and predict output
+            var result = RecommendationSystem.Predict(sampleData);
+
+            Console.WriteLine($"\nPrediction: {result.Score}");
         }
     }
 }
